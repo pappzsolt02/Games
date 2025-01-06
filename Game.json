@@ -1,86 +1,88 @@
-[
+{
+  "games" : [
     {
-        "_id": "1a2b3c4d5e6f7g8h9i0k",
-        "name": "Super Platformer",
-        "game_description": "A fun and challenging platform game.",
-        "release_date": "2023-10-15",
-        "gametype": "Action"  
+      "id": "1a2b3c4d5e6f7g8h9i0k",
+      "name": "Super Platformer",
+      "game_description": "A fun and challenging platform game.",
+      "release_date": "2023-10-15",
+      "gametype": "Action"
     },
     {
-        "_id": "1j2h3g4f5e6d7c8b9a0i",
-        "name": "Mystery Island",
-        "game_description": "An immersive adventure game where you uncover the secrets of a mysterious island.",
-        "release_date": "2022-05-20",
-        "gametype": "Adventure"  
+      "id": "1j2h3g4f5e6d7c8b9a0i",
+      "name": "Mystery Island",
+      "game_description": "An immersive adventure game where you uncover the secrets of a mysterious island.",
+      "release_date": "2022-05-20",
+      "gametype": "Adventure"
     },
     {
-        "_id": "2k3l4m5n6o7p8q9r0s1t",
-        "name": "Fantasy Quest",
-        "game_description": "A captivating role-playing game with deep storylines and character development.",
-        "release_date": "2024-03-10",
-        "gametype": "Role-playing"  
+      "id": "2k3l4m5n6o7p8q9r0s1t",
+      "name": "Fantasy Quest",
+      "game_description": "A captivating role-playing game with deep storylines and character development.",
+      "release_date": "2024-03-10",
+      "gametype": "Role-playing"
     },
     {
-        "_id": "3m4n5o6p7q8r9s0t1u2v",
-        "name": "Space Shooter",
-        "game_description": "An action-packed shooter game set in outer space.",
-        "release_date": "2024-06-18",
-        "gametype": "Action"  
+      "id": "3m4n5o6p7q8r9s0t1u2v",
+      "name": "Space Shooter",
+      "game_description": "An action-packed shooter game set in outer space.",
+      "release_date": "2024-06-18",
+      "gametype": "Action"
     },
     {
-        "_id": "4p5q6r7s8t9u0v1w2x3y",
-        "name": "Jungle Adventure",
-        "game_description": "Explore the mysteries of the jungle in this adventure game.",
-        "release_date": "2023-11-12",
-        "gametype": "Adventure"  
+      "id": "4p5q6r7s8t9u0v1w2x3y",
+      "name": "Jungle Adventure",
+      "game_description": "Explore the mysteries of the jungle in this adventure game.",
+      "release_date": "2023-11-12",
+      "gametype": "Adventure"
     },
     {
-        "_id": "5s6t7u8v9w0x1y2z3a4b",
-        "name": "Dungeon Crawler",
-        "game_description": "Delve into dungeons and defeat monsters in this role-playing game.",
-        "release_date": "2023-07-22",
-        "gametype": "Role-playing"  
+      "id": "5s6t7u8v9w0x1y2z3a4b",
+      "name": "Dungeon Crawler",
+      "game_description": "Delve into dungeons and defeat monsters in this role-playing game.",
+      "release_date": "2023-07-22",
+      "gametype": "Role-playing"
     },
     {
-        "_id": "6t7u8v9w0x1y2z3a4b5c",
-        "name": "Stealth Assassin",
-        "game_description": "A stealth action game where you must sneak and strategize to complete missions.",
-        "release_date": "2024-09-30",
-        "gametype": "Action"  
+      "id": "6t7u8v9w0x1y2z3a4b5c",
+      "name": "Stealth Assassin",
+      "game_description": "A stealth action game where you must sneak and strategize to complete missions.",
+      "release_date": "2024-09-30",
+      "gametype": "Action"
     },
     {
-        "_id": "7v8w9x0y1z2a3b4c5d6e",
-        "name": "Ancient Ruins",
-        "game_description": "An adventure game exploring ancient civilizations and solving puzzles.",
-        "release_date": "2024-02-14",
-        "gametype": "Adventure"  
+      "id": "7v8w9x0y1z2a3b4c5d6e",
+      "name": "Ancient Ruins",
+      "game_description": "An adventure game exploring ancient civilizations and solving puzzles.",
+      "release_date": "2024-02-14",
+      "gametype": "Adventure"
     },
     {
-        "_id": "8w9x0y1z2a3b4c5d6e7f",
-        "name": "Epic Saga",
-        "game_description": "An epic role-playing game with a vast world and intricate storyline.",
-        "release_date": "2024-04-21",
-        "gametype": "Role-playing"  
+      "id": "8w9x0y1z2a3b4c5d6e7f",
+      "name": "Epic Saga",
+      "game_description": "An epic role-playing game with a vast world and intricate storyline.",
+      "release_date": "2024-04-21",
+      "gametype": "Role-playing"
     },
     {
-        "_id": "9x0y1z2a3b4c5d6e7f8g",
-        "name": "Galactic Defense",
-        "game_description": "An action game focusing on defending against alien invasions.",
-        "release_date": "2023-12-05",
-        "gametype": "Action"  
+      "id": "9x0y1z2a3b4c5d6e7f8g",
+      "name": "Galactic Defense",
+      "game_description": "An action game focusing on defending against alien invasions.",
+      "release_date": "2023-12-05",
+      "gametype": "Action"
     },
     {
-        "_id": "0y1z2a3b4c5d6e7f8g9h",
-        "name": "Treasure Hunt",
-        "game_description": "An adventure game where you search for hidden treasures around the world.",
-        "release_date": "2024-07-18",
-        "gametype": "Adventure"  
+      "id": "0y1z2a3b4c5d6e7f8g9h",
+      "name": "Treasure Hunt",
+      "game_description": "An adventure game where you search for hidden treasures around the world.",
+      "release_date": "2024-07-18",
+      "gametype": "Adventure"
     },
     {
-        "_id": "1z2a3b4c5d6e7f8g9h0i",
-        "name": "Sorcerer's Quest",
-        "game_description": "A magical role-playing game filled with spells and adventures.",
-        "release_date": "2024-01-23",
-        "gametype": "Role-playing"  
+      "id": "1z2a3b4c5d6e7f8g9h0i",
+      "name": "Sorcerer's Quest",
+      "game_description": "A magical role-playing game filled with spells and adventures.",
+      "release_date": "2024-01-23",
+      "gametype": "Role-playing"
     }
-]
+  ]
+}
