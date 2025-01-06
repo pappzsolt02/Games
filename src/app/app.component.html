@@ -1,0 +1,29 @@
+<h1>Games</h1>
+
+<div class="cont">
+  <div class="vert">
+    <button (click)="newGame()" class="new">New Game</button>
+  </div>
+</div>
+<div class="card-container">
+  @for (gam of games; track $index) {
+  <div class="card">
+    <div class="card-body">
+      <h5 class="card-name">{{gam.name}}</h5>
+      <p class="card-date">{{gam.release_date}}</p>
+      <p class="description">Description:</p>
+      <p class="card-description">{{gam.game_description}}</p>
+      <p class="type"><span class="type-text">Type:</span> <span class="card-type">{{gam.gametype}}</span></p>
+      <br>
+      <div class="vert">
+        <button (click)="modifyGame(gam)" class="modify">Modify</button>
+        <button (click)="delGame(gam)" class="delete">Delete</button>
+      </div>
+    </div>
+  </div>
+  }
+</div>
+
+<app-modify [data]="modify" (saved)="saveModify($event)"></app-modify>
+<app-modify [data]="new" (saved)="saveNew($event)"></app-modify>
+

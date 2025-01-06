@@ -1,0 +1,107 @@
+h1 {
+  text-align: center;
+  font-size: 120px;
+  margin-block-end: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  block-size: 350px;
+  padding: 20px;
+  inline-size: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ccc;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card-name {
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-date {
+  text-align: center;
+  font-style: italic;
+}
+
+.card-description {
+  margin-block-end: 10px;
+  margin-inline-start: 10px;
+  margin-block-start: 0px;
+  block-size: 100px;
+}
+
+.description {
+  margin-block-end: 0px;
+  font-weight: bold;
+}
+
+.card-type {
+  display: inline-block;
+}
+
+.type {
+  display: inline-block;
+}
+
+.type-text {
+  font-weight: bold;
+  margin-inline-end: 10px;
+}
+
+.new {
+  inline-size: 200px;
+  font-weight: bold;
+  background-color: #3F51B5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-block-end: 20px;
+}
+
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  block-size: 50px;
+  position: relative;
+}
+
+.vert {
+  margin: 0;
+}
+
+.modify {
+  margin-inline-end: 10px;
+  background-color: #4CaF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px
+}
+
+.delete {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 5px;
+}

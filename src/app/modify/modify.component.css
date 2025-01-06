@@ -1,0 +1,67 @@
+/* Style for the model */
+.model {
+  display: block;
+  position: fixed;
+  z-index: 1000; /* Ensures it is in front of other content */
+  inset-inline-start: 50%;
+  inset-block-start: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border: 1px solid #888;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.7);
+  inline-size: 70%;
+}
+
+.model form {
+  background-color: rgba(0, 0, 0, 0.560);
+  margin: 0;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.model input[type="text"],
+.model input[type="date"],
+.model select {
+  inline-size: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.model button {
+  inline-size: 48%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 1%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.model button[type="button"] {
+  background-color: #f44336;
+}
+
+.model button:hover {
+  opacity: 0.8;
+}
+
+.overlay {
+  display: block;
+  position: fixed;
+  z-index: 999;
+  inset-inline-start: 0;
+  inset-block-start: 0;
+  inline-size: 100%;
+  block-size: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}

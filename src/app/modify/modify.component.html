@@ -1,0 +1,27 @@
+@if (data) {
+<div class="model" tabindex="1" style="display: block;">
+  <form>
+    <h1>Game data</h1>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" [value]="data.name" (change)="data.name = getValue($event)"><br><br>
+
+    <label for="year">Year:</label>
+    <input type="date" id="year" name="year" [value]="data.release_date"
+      (change)="data.release_date = getValue($event)"><br><br>
+
+    <label for="type">Type:</label>
+    <select id="type" name="type" [value]="data.gametype" (change)="data.gametype= getValue($event)">
+      <option value="Action">Action</option>
+      <option value="Adventure">Adventure</option>
+      <option value="Role-playing">Role-playing</option>
+    </select><br><br>
+
+    <label for="description">Description:</label>
+    <input type="text" id="description" name="description" [value]="data.game_description"
+      (change)="data.game_description = getValue($event)"><br><br>
+
+    <button type="button" (click)="data = undefined">Cancel</button>
+    <button type="submit" (click)="save()">Save</button>
+  </form>
+</div>
+}
